@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import axios from 'axios';
 
 const TweetCanvas = () => {
-  const [option, setOption] = useState('screenshot');
+  const [option, setOption] = useState('image');
   const [username, setUsername] = useState('');
   const [content, setContent] = useState('');
   const [template, setTemplate] = useState('light');
